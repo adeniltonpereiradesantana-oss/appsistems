@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AppSistems · DPC</title>
+  <meta name="description" content="Portal de sistemas da DPC Distribuidor Atacadista S.A.">
+  <meta name="theme-color" content="#0f1416">
+  <link rel="icon" href="assets/img/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="app" id="app">
+
+    <!-- MENU LATERAL -->
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <button class="icon-btn" id="btnToggle" type="button" aria-label="Recolher menu" aria-controls="sidebar">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+        </button>
+        <div class="brand-text">
+          <strong id="brandName">AppSistems</strong>
+          <span id="brandSub">DPC Distribuidor</span>
+        </div>
+      </div>
+
+      <nav class="nav" id="nav" aria-label="Menu principal"></nav>
+
+      <div class="user">
+        <div class="avatar" id="userInitials" aria-hidden="true">AS</div>
+        <span class="user-name" id="userName">apsantana</span>
+      </div>
+    </aside>
+    <div class="backdrop" id="backdrop" hidden></div>
+
+    <!-- ÁREA PRINCIPAL -->
+    <main class="main">
+      <div class="panel">
+        <div class="tabbar">
+          <button class="icon-btn only-mobile" id="btnMobile" type="button" aria-label="Abrir menu">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          </button>
+          <div class="tabs" id="tabs" role="tablist" aria-label="Sistemas abertos"></div>
+        </div>
+
+        <!-- Página inicial -->
+        <section class="home" id="home" aria-labelledby="homeTitle">
+          <div class="home-inner">
+            <header class="home-head">
+              <span class="eyebrow" id="homeCompany">DPC DISTRIBUIDOR ATACADISTA S.A.</span>
+              <h1 id="homeTitle">Central de sistemas</h1>
+              <p>Abra vários sistemas ao mesmo tempo em abas, sem perder o que estava fazendo.</p>
+            </header>
+
+            <label class="search">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M11 19a8 8 0 1 0 0-16 8 8 0 0 0 0 16zM21 21l-4.3-4.3"/></svg>
+              <span class="sr-only">Buscar sistema</span>
+              <input id="search" type="search" placeholder="Buscar sistema…" autocomplete="off">
+              <kbd>Ctrl K</kbd>
+            </label>
+
+            <div id="groupsHome"></div>
+            <p class="empty" id="emptySearch" hidden>Nenhum sistema encontrado.</p>
+          </div>
+          <footer class="home-foot" id="homeFoot">Powered by apsantana</footer>
+        </section>
+
+        <!-- Sistema aberto -->
+        <section class="viewer" id="viewer" hidden>
+          <div class="viewer-bar">
+            <span class="crumb" id="crumbGroup"></span>
+            <strong id="crumbName"></strong>
+            <span class="spacer"></span>
+            <button class="btn" id="btnReload" type="button">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 12a9 9 0 1 1-2.64-6.36M21 3v6h-6"/></svg>
+              Recarregar
+            </button>
+            <a class="btn btn-primary" id="btnExternal" href="#" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M10 14L21 3M21 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5"/></svg>
+              Abrir em nova aba
+            </a>
+          </div>
+          <div class="frames" id="frames"></div>
+        </section>
+      </div>
+    </main>
+  </div>
+
+  <script src="config/sistemas.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
