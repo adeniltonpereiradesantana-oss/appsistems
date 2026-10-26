@@ -300,6 +300,22 @@
   $('btnReload').addEventListener('click', reloadActive);
   mqMobile.addEventListener('change', function () { closeDrawer(); applyLayout(); renderNav(); });
 
+  /* ---------- Tema claro (sol) / escuro (lua) ---------- */
+  var THEME_KEY = 'appsistems.tema';
+  function applyTheme(t) {
+    document.documentElement.setAttribute('data-theme', t);
+    var b = $('btnTheme');
+    var label = t === 'light' ? 'Mudar para tema escuro' : 'Mudar para tema claro';
+    b.setAttribute('aria-label', label); b.title = label;
+    var meta = $('metaTheme'); if (meta) meta.setAttribute('content', t === 'light' ? '#eef1ef' : '#0f1416');
+  }
+  $('btnTheme').addEventListener('click', function () {
+    var t = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+    try { localStorage.setItem(THEME_KEY, t); } catch (e) {}
+    applyTheme(t);
+  });
+  applyTheme(document.documentElement.getAttribute('data-theme') || 'dark');
+
   /* ---------- Busca ---------- */
   var search = $('search');
   search.addEventListener('input', function () { renderHome(search.value); });
