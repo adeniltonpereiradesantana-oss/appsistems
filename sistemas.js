@@ -32,7 +32,7 @@ window.PORTAL_CONFIG = {
         { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",   url: "https://script.google.com/macros/s/AKfycbxSt4vJ3N21tCFONlYi8aqH8YGENhQMmzoqq-yBeaKAICCrezb_JaAgwgLq_1HgGA4mHA/exec" },
         { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
         { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",             url: "https://script.google.com/macros/s/AKfycby3P71RWpl6_UlZz_kErJ4TZPQzwFeDJRrJOYRGu57Ptf3E3OpHdA-tNcLpLU7GgBPc/exec" },
-        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                 url: "https://script.google.com/macros/s/AKfycbwlXbVQ6U6_GXF6Mpt_Ha-C6LCxd_6cYx_qzlQ3p5jCyo-OCPXmpOQ1rpoMZxcg1cQ/exec" }
+        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                 url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/" }
       ]
     },
     {
