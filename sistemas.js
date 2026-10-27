@@ -27,9 +27,9 @@ window.PORTAL_CONFIG = {
       icone: "box",
       sistemas: [
         { id: "cargas",            nome: "Cargas",              descricao: "Importação do WMS e dimensionamento de frota.",        url: "https://script.google.com/macros/s/AKfycbwlLm31BsyGbfXsDkt7y9b4cc0cGasXIp9UltgqYtJ1F3MH6kurmmPiUNWhKdw59g3F/exec" },
-        { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",              url: "https://script.google.com/macros/s/AKfycbyL7qkEc9bsiVNnokIxtjzaOxQ6P-MjxRXSQ68st2rS5qJjpzArK79vz-1gB458_zwUsg/exec" },
+        { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",              url: "https://script.google.com/macros/s/AKfycbyzoqUDtBmSDmYqBzLpvPO6tadyFw730PwVk8KprylhHmIWW6fSbNd_lk8xkwwMu66zSQ/exec" },
         { id: "devolucao",         nome: "Devolução Fornecedor", descricao: "Arquivo de notas de devolução ao fornecedor com PDFs.", url: "https://script.google.com/macros/s/AKfycbxbTEK5i9LZPcR8HrpSRwUQ4Odw8HhiQbiGLmgFdfIB8xL0N4haU52rGdX8i67J8MmL/exec" },
-        { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",   url: "https://script.google.com/macros/s/AKfycbxSt4vJ3N21tCFONlYi8aqH8YGENhQMmzoqq-yBeaKAICCrezb_JaAgwgLq_1HgGA4mHA/exec" },
+        { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",   url: "https://script.google.com/macros/s/AKfycbzCD5KYxdr1U-VafHOmnwkgZpE5u62QpzBzm__f2f45A_k2wFcVQLJV2o4NbWIqm4kubQ/exec" },
         { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
         { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",             url: "https://script.google.com/macros/s/AKfycbz39eAVse0aALZ5ReNboeHwha8ZAze8g--Me2kt_KeYDcUmZnJQboPVd0_st-jO48BFBA/exec" },
         { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                 url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"}
@@ -49,7 +49,7 @@ window.PORTAL_CONFIG = {
       nome: "Pessoal",
       icone: "users",
       sistemas: [
-        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                          url: "https://script.google.com/macros/s/AKfycbxXkroYhLIHUH7ue6vJbx_MyeW50Xde2p0oxNW4MLEDUNaBFUSt75xxh4G6AYjiQCkv/exec" }
+        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                          url: "https://script.google.com/macros/s/AKfycbzHK0RtWtHG7BZBnr-LC13o198_Tor02AFXtBALQwMXsalCWW0McNRydL_AVFivAHoa/exec" }
       ]
     },
     {
