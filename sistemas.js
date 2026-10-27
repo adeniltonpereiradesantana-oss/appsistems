@@ -18,7 +18,7 @@ window.PORTAL_CONFIG = {
   empresa: "DPC Distribuidor Atacadista S.A.",
   empresaCurta: "DPC Distribuidor",
   rodape: "Powered by apsantana",
-  usuario: { nome: "apsantana", iniciais: "AS" },
+  usuario: { nome: "AppSistems", iniciais: "AS" },
 
   grupos: [
     {
