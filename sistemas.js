@@ -41,7 +41,7 @@ window.PORTAL_CONFIG = {
       icone: "truck",
       sistemas: [
         { id: "painel-transporte", nome: "Painel de Transporte", descricao: "Escala de viagens, portaria e frota.",              url: "", emBreve: true },
-        { id: "agrega-mais",       nome: "Agrega+",              descricao: "Lançamentos, conta corrente e pagamento de agregados.", url: "https://script.google.com/macros/s/AKfycbwaruTWB6op4ZM0BSlLxhA9NffKfQ42yn7Pu5fxdaOMT4Ut5iWIPY0ZLD7CkJfPEreZ/exec"}
+        { id: "agrega-mais",       nome: "Agrega+",              descricao: "Lançamentos, conta corrente e pagamento de agregados.", url: "https://script.google.com/macros/s/AKfycbwaruTWB6op4ZM0BSlLxhA9NffKfQ42yn7Pu5fxdaOMT4Ut5iWIPY0ZLD7CkJfPEreZ/exec" }
       ]
     },
     {
