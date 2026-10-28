@@ -57,7 +57,7 @@ window.PORTAL_CONFIG = {
       nome: "Administrativo",
       icone: "file",
       sistemas: [
-        { id: "gestao-contratos",  nome: "Gestão de Contratos", descricao: "Cadastro, vigência e alertas de contratos.",          url: "", emBreve: true }
+        { id: "gestao-contratos",  nome: "Gestão de Contratos", descricao: "Cadastro, vigência e alertas de contratos.",          url: "https://script.google.com/macros/s/AKfycbyJI2kEP2PrdLsclZRuIn7jcY4Dw0XwHkWu1ahpEG_1K9DG8-0D4joGE-I5i0rAYC74/exec" }
       ]
     }
   ]
