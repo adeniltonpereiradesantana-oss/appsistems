@@ -49,7 +49,7 @@ window.PORTAL_CONFIG = {
       nome: "Pessoal",
       icone: "users",
       sistemas: [
-        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                          url: "https://script.google.com/macros/s/AKfycbyWbVeiTUsABsjQhYAai7Yt_EKOIlv-hS8XFF45AgsbbEX6YpdGSEqKnHGwdA7TheZ6/exec" }
+        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                          url: "https://script.google.com/macros/s/AKfycbw02rigZJcOfDTHbhFnw7ffcrRZKtFqIv-oVLETLPX79gWGxakcQvpbG22qki_pKCwR/exec" }
       ]
     },
     {
