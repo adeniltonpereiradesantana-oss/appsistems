@@ -33,7 +33,7 @@ window.PORTAL_CONFIG = {
         { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
         { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",             url: "https://script.google.com/macros/s/AKfycbz39eAVse0aALZ5ReNboeHwha8ZAze8g--Me2kt_KeYDcUmZnJQboPVd0_st-jO48BFBA/exec" },
         { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                 url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"},
-        { id: "erros-de-eparação",       nome: "Erros de Separação",         descricao: "Registros de erros na separação de embalado",                 url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"}
+        { id: "erros-de-eparação", nome: "Erros de Separação",  descricao: "Registros de erros na separação de embalado",         url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"}
       ]
     },
     {
