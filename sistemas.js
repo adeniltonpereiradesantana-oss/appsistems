@@ -58,7 +58,8 @@ window.PORTAL_CONFIG = {
       nome: "Administrativo",
       icone: "file",
       sistemas: [
-        { id: "gestao-contratos",  nome: "Gestão de Contratos", descricao: "Cadastro, vigência e alertas de contratos.",          url: "https://script.google.com/macros/s/AKfycbzWY6AsDHg7L5mQsgWjgdJY0wFiuE1BFaGskLUqa_JFPJD2HpZ2ErobFqWMqQ4roIRt/exec" }
+        { id: "gestao-contratos",  nome: "Gestão de Contratos", descricao: "Cadastro, vigência e alertas de contratos.",          url: "https://script.google.com/macros/s/AKfycbzWY6AsDHg7L5mQsgWjgdJY0wFiuE1BFaGskLUqa_JFPJD2HpZ2ErobFqWMqQ4roIRt/exec" },
+        { id: "caixa-banco",  nome: "Caixa Banco", descricao: "Gestão financeira do centro de distribuição",                      url: "https://script.google.com/macros/s/AKfycbxCw-Z_2SbptIl77XokRVWaML7EtM--zq0rYxqz7IRlh3PDgyDCRSoXd7OyDx0P_NQ7EQ/exec" }
       ]
     }
   ]
