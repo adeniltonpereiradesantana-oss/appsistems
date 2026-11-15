@@ -50,7 +50,7 @@ window.PORTAL_CONFIG = {
       nome: "Pessoal",
       icone: "users",
       sistemas: [
-        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                           url: "https://script.google.com/macros/s/AKfycbw02rigZJcOfDTHbhFnw7ffcrRZKtFqIv-oVLETLPX79gWGxakcQvpbG22qki_pKCwR/exec" }
+        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                           url: "https://script.google.com/macros/s/AKfycbxLilW5p5ELXE-wD4sy5XC7L8heaykOHL_Xr8HmVU7ZXysgvIb_JOa87JeZ0gzibJJF/exec" }
       ]
     },
     {
@@ -59,7 +59,7 @@ window.PORTAL_CONFIG = {
       icone: "file",
       sistemas: [
         { id: "gestao-contratos",  nome: "Gestão de Contratos", descricao: "Cadastro, vigência e alertas de contratos.",          url: "https://script.google.com/macros/s/AKfycbzWY6AsDHg7L5mQsgWjgdJY0wFiuE1BFaGskLUqa_JFPJD2HpZ2ErobFqWMqQ4roIRt/exec" },
-        { id: "caixa-banco",  nome: "Caixa Banco", descricao: "Gestão financeira do centro de distribuição",                      url: "https://script.google.com/macros/s/AKfycbxCw-Z_2SbptIl77XokRVWaML7EtM--zq0rYxqz7IRlh3PDgyDCRSoXd7OyDx0P_NQ7EQ/exec" }
+        { id: "caixa-banco",       nome: "Caixa Banco", descricao: "Gestão financeira do centro de distribuição",                 url: "https://script.google.com/macros/s/AKfycbxCw-Z_2SbptIl77XokRVWaML7EtM--zq0rYxqz7IRlh3PDgyDCRSoXd7OyDx0P_NQ7EQ/exec" }
       ]
     }
   ]
