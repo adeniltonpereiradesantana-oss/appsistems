@@ -26,14 +26,14 @@ window.PORTAL_CONFIG = {
       nome: "Logística",
       icone: "box",
       sistemas: [
-        { id: "cargas",            nome: "Cargas",              descricao: "Importação do WMS e dimensionamento de frota.",        url: "https://script.google.com/macros/s/AKfycbwlLm31BsyGbfXsDkt7y9b4cc0cGasXIp9UltgqYtJ1F3MH6kurmmPiUNWhKdw59g3F/exec" },
-        { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",              url: "https://script.google.com/macros/s/AKfycbyzoqUDtBmSDmYqBzLpvPO6tadyFw730PwVk8KprylhHmIWW6fSbNd_lk8xkwwMu66zSQ/exec" },
+        { id: "cargas",            nome: "Cargas",              descricao: "Importação do WMS e dimensionamento de frota.",          url: "https://script.google.com/macros/s/AKfycbwlLm31BsyGbfXsDkt7y9b4cc0cGasXIp9UltgqYtJ1F3MH6kurmmPiUNWhKdw59g3F/exec" },
+        { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",                 url: "https://script.google.com/macros/s/AKfycbyzoqUDtBmSDmYqBzLpvPO6tadyFw730PwVk8KprylhHmIWW6fSbNd_lk8xkwwMu66zSQ/exec" },
         { id: "devolucao",         nome: "Devolução Fornecedor", descricao: "Arquivo de notas de devolução ao fornecedor com PDFs.", url: "https://script.google.com/macros/s/AKfycbyXszR7gLSUrtFPNdaDoH74nw5yA4jJID8KAR4Hczh3UXvw9N0bBYtVzncLapbPU2xt/exec" },
-        { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",   url: "https://script.google.com/macros/s/AKfycbxmivkzpCmDGgz3RAwTgqTrDWE6oLYpYwUlgFfjUEnRZ835Sozg2eo46n0vyWylC5RFDQ/exec" },
-        { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
-        { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",             url: "https://script.google.com/macros/s/AKfycbz39eAVse0aALZ5ReNboeHwha8ZAze8g--Me2kt_KeYDcUmZnJQboPVd0_st-jO48BFBA/exec" },
-        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                 url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"},
-        { id: "erros-separacao", nome: "Erros de Separação",  descricao: "Registros de erros na separação de embalado",         url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"}
+        { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",      url: "https://script.google.com/macros/s/AKfycbxmivkzpCmDGgz3RAwTgqTrDWE6oLYpYwUlgFfjUEnRZ835Sozg2eo46n0vyWylC5RFDQ/exec" },
+        { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                   url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
+        { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",                url: "https://script.google.com/macros/s/AKfycbz39eAVse0aALZ5ReNboeHwha8ZAze8g--Me2kt_KeYDcUmZnJQboPVd0_st-jO48BFBA/exec" },
+        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                    url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"},
+        { id: "erros-separacao",   nome: "Erros de Separação",  descricao: "Registros de erros na separação de embalado",            url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"}
       ]
     },
     {
@@ -41,7 +41,7 @@ window.PORTAL_CONFIG = {
       nome: "Transporte",
       icone: "truck",
       sistemas: [
-        { id: "painel-transporte", nome: "Painel de Transporte", descricao: "Escala de viagens, portaria e frota.",              url: "", emBreve: true },
+        { id: "painel-transporte", nome: "Painel de Transporte", descricao: "Escala de viagens, portaria e frota.",                 url: "", emBreve: true },
         { id: "agrega-mais",       nome: "Agrega+",              descricao: "Lançamentos, conta corrente e pagamento de agregados.", url: "https://script.google.com/macros/s/AKfycbwaruTWB6op4ZM0BSlLxhA9NffKfQ42yn7Pu5fxdaOMT4Ut5iWIPY0ZLD7CkJfPEreZ/exec" }
       ]
     },
@@ -50,7 +50,7 @@ window.PORTAL_CONFIG = {
       nome: "Pessoal",
       icone: "users",
       sistemas: [
-        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                          url: "https://script.google.com/macros/s/AKfycbw02rigZJcOfDTHbhFnw7ffcrRZKtFqIv-oVLETLPX79gWGxakcQvpbG22qki_pKCwR/exec" }
+        { id: "rh-inteligente",    nome: "RH Inteligente",      descricao: "Atestados e rotinas de DP.",                           url: "https://script.google.com/macros/s/AKfycbw02rigZJcOfDTHbhFnw7ffcrRZKtFqIv-oVLETLPX79gWGxakcQvpbG22qki_pKCwR/exec" }
       ]
     },
     {
