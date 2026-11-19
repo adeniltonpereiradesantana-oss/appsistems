@@ -30,10 +30,11 @@ window.PORTAL_CONFIG = {
         { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",                 url: "https://script.google.com/macros/s/AKfycbyzoqUDtBmSDmYqBzLpvPO6tadyFw730PwVk8KprylhHmIWW6fSbNd_lk8xkwwMu66zSQ/exec" },
         { id: "devolucao",         nome: "Devolução Fornecedor", descricao: "Arquivo de notas de devolução ao fornecedor com PDFs.", url: "https://script.google.com/macros/s/AKfycbyXszR7gLSUrtFPNdaDoH74nw5yA4jJID8KAR4Hczh3UXvw9N0bBYtVzncLapbPU2xt/exec" },
         { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",      url: "https://script.google.com/macros/s/AKfycbxmivkzpCmDGgz3RAwTgqTrDWE6oLYpYwUlgFfjUEnRZ835Sozg2eo46n0vyWylC5RFDQ/exec" },
+        { id: "erros-separacao",   nome: "Erros de Separação",  descricao: "Registros de erros na separação de embalado",            url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"},
         { id: "nivel-servico",     nome: "Nível de Serviço",    descricao: "Lançamentos e indicadores por setor.",                   url: "https://script.google.com/macros/s/AKfycbywa4StgRAkHl4ZY_RA-pVdvyMnlNm4K18jvAmI1xol0T4Bka5UaZ7idTv50G0youEAwA/exec" },
+        { id: "notas-fiscais",     nome: "Notas Fiscais",       descricao: "Registros de erros na separação de embalado",            url: "https://script.google.com/macros/s/AKfycbzFaDsOPTgRmrL9OYB4MhvHdKKILIeiyO3sr3Yecx-QL1InHrYdvwsODBCefacSfZnJ/exec"},
         { id: "recebimento",       nome: "Recebimento",         descricao: "Controle de recebimento de mercadorias.",                url: "https://script.google.com/macros/s/AKfycbz39eAVse0aALZ5ReNboeHwha8ZAze8g--Me2kt_KeYDcUmZnJQboPVd0_st-jO48BFBA/exec" },
-        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                    url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"},
-        { id: "erros-separacao",   nome: "Erros de Separação",  descricao: "Registros de erros na separação de embalado",            url: "https://script.google.com/macros/s/AKfycbxDU1C70Fr2kT4o1HOxyRZooYjRbdGUULkQR12KAwBRFpaOtMfbE3TGD3eNtWSPbYM/exec"}
+        { id: "temperatura",       nome: "Temperatura",         descricao: "Registros de temperatura e umidade.",                    url: "https://adeniltonpereiradesantana-oss.github.io/temperatura/"}        
       ]
     },
     {
