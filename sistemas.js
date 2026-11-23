@@ -26,7 +26,7 @@ window.PORTAL_CONFIG = {
       nome: "Logística",
       icone: "box",
       sistemas: [
-        { id: "cargas",            nome: "Cargas",              descricao: "Importação do WMS e dimensionamento de frota.",          url: "https://script.google.com/macros/s/AKfycbwlLm31BsyGbfXsDkt7y9b4cc0cGasXIp9UltgqYtJ1F3MH6kurmmPiUNWhKdw59g3F/exec" },
+        { id: "cargas",            nome: "Cargas",              descricao: "Importação do WMS e dimensionamento de frota.",          url: "https://script.google.com/macros/s/AKfycbzNxIr6G0Nd-7XdxSdrUafveJ8JYEDsLzf2vGVMRahiuzdDl4o2OdZdWywlSj2rBZFF/exec" },
         { id: "controle-estoque",  nome: "Controle de Estoque", descricao: "Insumos por filial, entradas e saídas.",                 url: "https://script.google.com/macros/s/AKfycbyzoqUDtBmSDmYqBzLpvPO6tadyFw730PwVk8KprylhHmIWW6fSbNd_lk8xkwwMu66zSQ/exec" },
         { id: "devolucao",         nome: "Devolução Fornecedor", descricao: "Arquivo de notas de devolução ao fornecedor com PDFs.", url: "https://script.google.com/macros/s/AKfycbyXszR7gLSUrtFPNdaDoH74nw5yA4jJID8KAR4Hczh3UXvw9N0bBYtVzncLapbPU2xt/exec" },
         { id: "despesa-viagem",    nome: "Despesa de Viagem",   descricao: "RDV por funcionário e filial, envio ao pagamento.",      url: "https://script.google.com/macros/s/AKfycbxmivkzpCmDGgz3RAwTgqTrDWE6oLYpYwUlgFfjUEnRZ835Sozg2eo46n0vyWylC5RFDQ/exec" },
